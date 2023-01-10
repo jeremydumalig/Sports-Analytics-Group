@@ -2,7 +2,7 @@
 rm(list = ls())
 
 # Set working directory
-setwd("/Users/jeremydumalig/Downloads")
+setwd("/Users/jeremydumalig/Documents/GitHub/Sports-Analytics-Group")
 
 # Install tidyverse package
 # install.packages("tidyverse")
@@ -20,6 +20,7 @@ tail(nba, 5)
 
 
 # Select or deselect by column
+?select
 select(nba, PLAYER, PTS)
 select(nba, -GP)
 
