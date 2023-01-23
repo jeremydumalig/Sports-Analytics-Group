@@ -43,23 +43,3 @@ mutate(nba,
 
 # Compute summary statistics
 summarize(nba, n(), sum(`3PM`))
-
-
-# Pipe function
-nba %>%
-  filter(TEAM == "GSW") %>%
-  arrange(desc(`3PM`)) %>%
-  select(PLAYER, `3PM`) %>%
-  head(5)
-
-# Group by
-nba %>%
-  group_by(TEAM) %>%
-  summarize(`Total 3PM` = sum(`3PM`)) %>%
-  ungroup()
-
-# Conditional mutate()
-nba %>%
-  mutate(`3P%` = `3PM` / `3PA`,
-         `Shooter?` = case_when((`3P%` >= 0.4) ~ "Shooter",
-                                (`3P%` < 0.4) ~ "Non-Shooter"))

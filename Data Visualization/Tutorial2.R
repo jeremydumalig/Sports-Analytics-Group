@@ -18,6 +18,11 @@ nba <- read_csv("Data Visualization/nba2022.csv")
 
 # Of players who made at least 82 three-pointers last season, who took the
 # highest percentage of their shots from three-point range?
+# filter()
+# mutate()
+# arrange(), desc()
+# head(), tail()
+# View()
 
 # Pipe function
 nba %>%
