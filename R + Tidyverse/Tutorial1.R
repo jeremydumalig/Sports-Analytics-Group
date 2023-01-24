@@ -21,7 +21,7 @@ tail(nba, 5)
 
 # Select or deselect by column
 ?select
-select(nba, PLAYER, PTS)
+select(nba, PLAYER)
 select(nba, -GP)
 
 # Condition rows
