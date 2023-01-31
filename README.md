@@ -2,7 +2,7 @@
 
 <br>
 
-**[Linear Regression (January 30)](https://skdeshpande91.github.io/wharton_moneyball/lecture4.html)** <br>
+**[Linear Regression (January 30)](https://skdeshpande91.github.io/wharton_moneyball/lecture6.html)** <br>
 * nba2022.csv
 * Tutorial3.R
 
