@@ -3,6 +3,7 @@
 <br>
 
 **[Linear Regression (January 30)](https://skdeshpande91.github.io/wharton_moneyball/lecture6.html)** <br>
+* [Regression in Baseball.pdf](https://github.com/jeremydumalig/Sports-Analytics-Group/raw/main/Linear%20Regression/Regression%20in%20Baseball.pdf)
 * nba2022.csv
 * Tutorial3.R
 
