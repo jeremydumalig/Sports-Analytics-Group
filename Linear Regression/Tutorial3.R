@@ -1,7 +1,7 @@
 # Set working directory
 setwd("/Users/jeremydumalig/Documents/GitHub/Sports-Analytics-Group/Linear Regression")
 
-# Install ggplot2 package
+# Install modelr package
 # install.packages("modelr")
 
 # Import tidyverse and ggplot2 packages
@@ -35,7 +35,8 @@ coef <- fit[["coefficients"]] # returns the same output as above
 nba <- 
   nba %>%
   add_predictions(fit) %>%
-  mutate(Residual = PTS - pred)
+  mutate(Residual = PTS - pred) %>%
+  select(PLAYER, FTA, PTS, pred, Residual)
 
 # Visualize data and regression fit
 ggplot(data=nba, aes(x=FTA, y=PTS)) +
