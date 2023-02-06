@@ -4,6 +4,7 @@
 
 **[Web Scraping (February 6)](https://www.geeksforgeeks.org/what-is-web-scraping-and-how-to-use-it/)** <br>
 * [Introduction to Web Scraping.pdf](https://github.com/jeremydumalig/Sports-Analytics-Group/raw/main/Web%20Scraping/Introduction%20to%20Web%20Scraping.pdf)
+* [Introduction to HTML](https://betterprogramming.pub/understanding-html-basics-for-web-scraping-ae351ee0b3f9#4fb0)
 * Scraping Demo.ipynb
 * lebron.csv
 
