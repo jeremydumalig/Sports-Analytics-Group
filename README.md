@@ -2,7 +2,7 @@
 
 <br>
 
-**Web Scraping (February 6)** <br>
+**[Web Scraping (February 6)](https://www.geeksforgeeks.org/what-is-web-scraping-and-how-to-use-it/)** <br>
 * [Introduction to Web Scraping.pdf](https://github.com/jeremydumalig/Sports-Analytics-Group/raw/main/Web%20Scraping/Introduction%20to%20Web%20Scraping.pdf)
 * Scraping Demo.ipynb
 
