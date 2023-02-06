@@ -16,13 +16,13 @@
 * * nba2022.csv
 
 **[Data Visualization (January 23)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/Data%20Visualization)** <br>
-* [Notes[(https://skdeshpande91.github.io/wharton_moneyball/lecture2.html)
+* [Notes](https://skdeshpande91.github.io/wharton_moneyball/lecture2.html)
 * [Additional Notes](https://skdeshpande91.github.io/wharton_moneyball/lecture3.html)
 * Tutorial2.R
 * * nba2022.csv
 
 **[R + Tidyverse (January 9)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/R%20%2B%20Tidyverse)**
-* [Notes[(https://skdeshpande91.github.io/wharton_moneyball/tc_lecture1.html)
+* [Notes](https://skdeshpande91.github.io/wharton_moneyball/tc_lecture1.html)
 * Tutorial1.R
 * nba2022.csv
 
