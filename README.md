@@ -2,7 +2,7 @@
 
 <br>
 
-**[Web Scraping (February 6)]
+**Web Scraping (February 6)** <br>
 * [Introduction to Web Scraping.pdf](https://github.com/jeremydumalig/Sports-Analytics-Group/raw/main/Web%20Scraping/Introduction%20to%20Web%20Scraping.pdf)
 * Scraping Demo.ipynb
 
