@@ -1,4 +1,4 @@
-# Sports Analytics Group @ UChicago
+# Sports Analytics Group @ University of Chicago
 
 <br>
 
