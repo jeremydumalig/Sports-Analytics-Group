@@ -5,6 +5,7 @@
 **[Web Scraping (February 6)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/Web%20Scraping)** <br>
 * [Notes (web scraping)](https://www.geeksforgeeks.org/what-is-web-scraping-and-how-to-use-it/)
 * [Notes (HTML)](https://betterprogramming.pub/understanding-html-basics-for-web-scraping-ae351ee0b3f9#4fb0)
+* [Notes (installing Jupyter Notebook)](https://docs.jupyter.org/en/latest/install/notebook-classic.html)
 * [Introduction to Web Scraping.pdf](https://github.com/jeremydumalig/Sports-Analytics-Group/raw/main/Web%20Scraping/Introduction%20to%20Web%20Scraping.pdf)
 * [Scraping Demo.mp4](https://github.com/jeremydumalig/Sports-Analytics-Group/raw/main/Web%20Scraping/Scraping%20Demo.mp4)
 * Scraping Demo.ipynb
