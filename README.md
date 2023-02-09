@@ -3,8 +3,7 @@
 <br>
 
 **[Web Scraping (February 6)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/Web%20Scraping)** <br>
-* Notes ([web scraping](https://www.geeksforgeeks.org/what-is-web-scraping-and-how-to-use-it/), [HTML](https://betterprogramming.pub/understanding-html-basics-for-web-scraping-ae351ee0b3f9#4fb0), [installing Jupyter Notebook](https://docs.jupyter.org/en/latest/install/notebook-classic.html))
-* [Introduction to Web Scraping.pdf](https://github.com/jeremydumalig/Sports-Analytics-Group/raw/main/Web%20Scraping/Introduction%20to%20Web%20Scraping.pdf)
+* Notes ([web scraping]([https://www.geeksforgeeks.org/what-is-web-scraping-and-how-to-use-it/](https://github.com/jeremydumalig/Sports-Analytics-Group/raw/main/Web%20Scraping/Introduction%20to%20Web%20Scraping.pdf)), [HTML](https://betterprogramming.pub/understanding-html-basics-for-web-scraping-ae351ee0b3f9#4fb0), [installing Jupyter Notebook](https://docs.jupyter.org/en/latest/install/notebook-classic.html))
 * [Scraping Demo.mp4](https://github.com/jeremydumalig/Sports-Analytics-Group/raw/main/Web%20Scraping/Scraping%20Demo.mp4)
 * Scraping Demo.ipynb
 * lebron.csv
@@ -15,7 +14,7 @@
 * nba2022.csv
 
 **[Data Visualization (January 23)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/Data%20Visualization)** <br>
-* Notes ([data visualization](https://skdeshpande91.github.io/wharton_moneyball/lecture2.html), [more tidyverse)](https://skdeshpande91.github.io/wharton_moneyball/lecture3.html))
+* Notes ([data visualization](https://skdeshpande91.github.io/wharton_moneyball/lecture2.html), [more tidyverse](https://skdeshpande91.github.io/wharton_moneyball/lecture3.html))
 * Tutorial2.R
 * nba2022.csv
 
