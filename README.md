@@ -3,26 +3,26 @@
 <br>
 
 **[Web Scraping (February 6)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/Web%20Scraping)** <br>
-* Notes ([(web scraping)](https://www.geeksforgeeks.org/what-is-web-scraping-and-how-to-use-it/), [(HTML)](https://betterprogramming.pub/understanding-html-basics-for-web-scraping-ae351ee0b3f9#4fb0), [(installing Jupyter Notebook)](https://docs.jupyter.org/en/latest/install/notebook-classic.html))
+* Notes ([web scraping](https://www.geeksforgeeks.org/what-is-web-scraping-and-how-to-use-it/), [HTML](https://betterprogramming.pub/understanding-html-basics-for-web-scraping-ae351ee0b3f9#4fb0), [installing Jupyter Notebook](https://docs.jupyter.org/en/latest/install/notebook-classic.html))
 * [Introduction to Web Scraping.pdf](https://github.com/jeremydumalig/Sports-Analytics-Group/raw/main/Web%20Scraping/Introduction%20to%20Web%20Scraping.pdf)
 * [Scraping Demo.mp4](https://github.com/jeremydumalig/Sports-Analytics-Group/raw/main/Web%20Scraping/Scraping%20Demo.mp4)
 * Scraping Demo.ipynb
 * lebron.csv
 
 **[Linear Regression (January 30)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/Linear%20Regression)** <br>
-* [Notes (linear regression)](https://skdeshpande91.github.io/wharton_moneyball/lecture6.html)
+* Notes [(linear regression)](https://skdeshpande91.github.io/wharton_moneyball/lecture6.html)
 * [Regression in Baseball.pdf](https://github.com/jeremydumalig/Sports-Analytics-Group/raw/main/Linear%20Regression/Regression%20in%20Baseball.pdf)
 * Tutorial3.R
 * nba2022.csv
 
 **[Data Visualization (January 23)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/Data%20Visualization)** <br>
-* [Notes (data visualization)](https://skdeshpande91.github.io/wharton_moneyball/lecture2.html)
-* [Notes (more tidyverse)](https://skdeshpande91.github.io/wharton_moneyball/lecture3.html)
+* Notes [(data visualization)](https://skdeshpande91.github.io/wharton_moneyball/lecture2.html)
+* Notes [(more tidyverse)](https://skdeshpande91.github.io/wharton_moneyball/lecture3.html)
 * Tutorial2.R
 * nba2022.csv
 
 **[R + Tidyverse (January 9)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/R%20%2B%20Tidyverse)**
-* [Notes (tidyverse)](https://skdeshpande91.github.io/wharton_moneyball/tc_lecture1.html)
+* Notes [(tidyverse)](https://skdeshpande91.github.io/wharton_moneyball/tc_lecture1.html)
 * Tutorial1.R
 * nba2022.csv
 
