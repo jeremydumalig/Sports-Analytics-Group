@@ -2,6 +2,8 @@
 
 <br>
 
+**[Guest Panel Event with Alex Kerr & Matt Shepardson (February 20)](https://drive.google.com/file/d/17WBL36NcihTMmZlQjHZqXX25NMPRBFCp/view?usp=share_link)**
+
 **[Guest Speaker Event with David Iwanowski (February 13)](https://drive.google.com/file/d/1yHgFmtG8MmZ9X8FXJ7zE0Otsa60NYMLk/view?usp=sharing)**
 
 **[Web Scraping (February 6)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/Web%20Scraping)** <br>
