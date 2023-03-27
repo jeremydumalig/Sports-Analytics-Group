@@ -29,8 +29,6 @@
 * Tutorial1.R
 * nba2022.csv
 
-<br>
-
 **[Python + Pandas Tutorials](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/Python%20%2B%20Pandas%20Tutorials)**
 * Notes ([installing Jupyter Notebook](https://docs.jupyter.org/en/latest/install/notebook-classic.html))
 * Introduction to Pandas.ipynb
