@@ -3,10 +3,10 @@
 <br>
 
 **[Guest Panel Event with Alex Kerr & Matt Shepardson (February 20)](https://drive.google.com/file/d/17WBL36NcihTMmZlQjHZqXX25NMPRBFCp/view?usp=share_link)**
-* Must be logged into UChicago email to access
+* Must be logged into UChicago email to access (otherwise, feel free to request access)
 
 **[Guest Speaker Event with David Iwanowski (February 13)](https://drive.google.com/file/d/1yHgFmtG8MmZ9X8FXJ7zE0Otsa60NYMLk/view?usp=sharing)**
-* Must be logged into UChicago email to access
+* Must be logged into UChicago email to access (otherwise, feel free to request access)
 
 **[Web Scraping (February 6)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/Web%20Scraping)** <br>
 * Notes ([web scraping](https://github.com/jeremydumalig/Sports-Analytics-Group/raw/main/Web%20Scraping/Introduction%20to%20Web%20Scraping.pdf), [HTML](https://betterprogramming.pub/understanding-html-basics-for-web-scraping-ae351ee0b3f9#4fb0), [installing Jupyter Notebook](https://docs.jupyter.org/en/latest/install/notebook-classic.html))
