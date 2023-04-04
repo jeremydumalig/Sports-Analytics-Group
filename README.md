@@ -2,7 +2,8 @@
 
 <br>
 
-**Guest Speaker Event with Jonathan Liu (April 3)**
+**[Guest Speaker Event with Jonathan Liu (April 3)](https://drive.google.com/file/d/1dgbJtygA-o_DkvNfZhyapoacj_MJ62XT/view?usp=share_link)**
+* Must be logged into UChicago email to access (otherwise, feel free to request access)
 
 **[Guest Panel Event with Alex Kerr & Matt Shepardson (February 20)](https://drive.google.com/file/d/17WBL36NcihTMmZlQjHZqXX25NMPRBFCp/view?usp=share_link)**
 * Must be logged into UChicago email to access (otherwise, feel free to request access)
