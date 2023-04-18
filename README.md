@@ -3,7 +3,6 @@
 <br>
 
 **Must be logged into UChicago email to access (feel free to request access)*
-* *Must be logged into UChicago email to access (feel free to request access)*
 
 **[Guest Panel Event with Matthew Lehman & Ben Marrow (April 17)*](https://drive.google.com/file/d/1KsNJ3R7nW7gLzK85WsGSOCQvENoPlT11/view?usp=share_link)**
 * Junior Data Scientist, Cincinnati Reds
