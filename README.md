@@ -2,7 +2,7 @@
 
 <br>
 
-*[*Guest Panel Event with Matthew Lehman & Ben Marrow (April 17)](https://drive.google.com/file/d/1KsNJ3R7nW7gLzK85WsGSOCQvENoPlT11/view?usp=share_link)**
+**[*Guest Panel Event with Matthew Lehman & Ben Marrow (April 17)](https://drive.google.com/file/d/1KsNJ3R7nW7gLzK85WsGSOCQvENoPlT11/view?usp=share_link)**
 * Must be logged into UChicago email to access (feel free to request access)
 
 **[Guest Speaker Event with Jonathan Liu (April 3)](https://drive.google.com/file/d/1dgbJtygA-o_DkvNfZhyapoacj_MJ62XT/view?usp=share_link)**
