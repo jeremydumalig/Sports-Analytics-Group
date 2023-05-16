@@ -1,8 +1,6 @@
 # Sports Analytics Group @ University of Chicago
 
-<br>
-
-### Workshops
+## Workshops
 
 **[Web Scraping (February 6)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/Web%20Scraping)** <br>
 * Notes ([web scraping](https://github.com/jeremydumalig/Sports-Analytics-Group/raw/main/Web%20Scraping/Introduction%20to%20Web%20Scraping.pdf), [HTML](https://betterprogramming.pub/understanding-html-basics-for-web-scraping-ae351ee0b3f9#4fb0), [installing Jupyter Notebook](https://docs.jupyter.org/en/latest/install/notebook-classic.html))
@@ -33,7 +31,7 @@
 
 <br>
 
-### Meeting Recordings
+## Meeting Recordings
 
 **Must be logged into UChicago email to access (feel free to request access)*
 
