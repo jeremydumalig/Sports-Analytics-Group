@@ -1,7 +1,7 @@
 # Sports Analytics Group @ University of Chicago
 
 ## 2023-24 Workshops
-**[Introduction to Data Manipulation & Visualization in Python (October 23)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/Web%20Scraping)** <br>
+**[Introduction to Data Manipulation & Visualization in Python (October 23)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/2023-24%20Intro%20to%20Python)** <br>
 * [Meeting Notes](https://docs.google.com/document/d/15ESvtmGQhA_ZJh3MAxw6lB3rYfQ8PFZ9zxTQgwWov4c/edit?usp=sharing)
 * NFLDataDemo.ipynb
 * yearly_data
