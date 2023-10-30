@@ -59,10 +59,11 @@ team_freethrows <- group_by(team_freethrows, Tm)
 team_freethrows <- summarize(team_freethrows, 
                              FT = sum(FT),
                              FTA = sum(FTA))
-team_freethrows <- mutate(team_freethrows,
-                         `FT%` = FT / FTA)
 
 team_freethrows <- ungroup(team_freethrows)
+
+team_freethrows <- mutate(team_freethrows,
+                         `FT%` = FT / FTA)
 
 team_freethrows <- arrange(team_freethrows, desc(`FT%`))
 team_freethrows
