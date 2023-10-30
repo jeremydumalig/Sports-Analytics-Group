@@ -1,7 +1,7 @@
 # Sports Analytics Group @ University of Chicago
 
 ## 2023-24 Workshops
-**[Introduction to Tidyverse and GGPlot in R (October 23)]([link](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/2023-24%20Intro%20to%20R))** <br>
+**[Introduction to Tidyverse and GGPlot in R (October 23)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/2023-24%20Intro%20to%20R)** <br>
 * [Meeting Notes]()
 * Tutorial.R
 * nba_totals_2023.csv
