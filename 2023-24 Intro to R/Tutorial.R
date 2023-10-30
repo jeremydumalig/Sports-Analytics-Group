@@ -13,7 +13,12 @@ library(ggplot2)
 nba_totals <- read_csv("nba_totals_2023.csv")
 
 # View dataset
+colnames(nba_totals)
+nrow(nba_totals)
+summary(nba_totals)
+
 View(nba_totals)
+
 head(nba_totals, 5)
 tail(nba_totals, 5)
 
@@ -30,20 +35,21 @@ filter(nba_totals, `3P` >= 50, Tm == "GSW")
 # Sort rows
 arrange(nba_totals, `3P`)
 arrange(nba_totals, desc(`3P`))
+arrange(nba_totals, Tm, desc(`3P`))
 
 View( arrange(nba_totals, Tm, desc(`3P`)) )
 
 # Create new columns based on existing data
 nba_totals <- mutate(nba_totals, 
                      `3P%` = `3P` / `3PA`,
-                     PTS = FT + 2*`2P` + 3*`3P`,
+                     PTS = 1*FT + 2*`2P` + 3*`3P`,
                      Shooter = case_when((`3P%` >= 0.4) ~ "Elite",
                                           (`3P%` >= 0.35) ~ "Above Average",
                                           TRUE ~ "Below Average"))
 select(nba_totals,
        Player, `FG%`, PTS)
 
-# Compute summary statistics (league FT%)
+# Compute summary statistics
 nba_freethrows <- summarize(nba_totals, 
                             FT = sum(FT),
                             FTA = sum(FTA))
