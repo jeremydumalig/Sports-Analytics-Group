@@ -106,3 +106,7 @@ nba_totals %>%
              color=Pos)) +
   geom_point() +
   facet_wrap(~Pos)
+
+nba_totals %>%
+  ggplot(aes(x=`3P`)) +
+  geom_histogram()
