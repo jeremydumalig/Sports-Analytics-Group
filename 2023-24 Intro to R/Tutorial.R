@@ -35,8 +35,11 @@ View( arrange(nba_totals, Tm, desc(`3P`)) )
 
 # Create new columns based on existing data
 nba_totals <- mutate(nba_totals, 
-                     `FG%` = FG / FGA,
-                     PTS = FT + 2*`2P` + 3*`3P`)
+                     `3P%` = `3P` / `3PA`,
+                     PTS = FT + 2*`2P` + 3*`3P`,
+                     Shooter = case_when((`3P%` >= 0.4) ~ "Elite",
+                                          (`3P%` >= 0.35) ~ "Above Average",
+                                          TRUE ~ "Below Average"))
 select(nba_totals,
        Player, `FG%`, PTS)
 
