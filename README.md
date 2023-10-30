@@ -4,6 +4,8 @@
 **[Introduction to Tidyverse and GGPlot in R (October 30)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/2023-24%20Intro%20to%20R)** <br>
 * Meeting Notes (to be uploaded following Monday's workshop)
 * Tutorial.R
+* Variables.R
+* Piping.R
 * nba_totals_2023.csv
 
 **[Introduction to Data Manipulation & Visualization in Python (October 23)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/2023-24%20Intro%20to%20Python)** <br>
