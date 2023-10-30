@@ -53,6 +53,8 @@ select(nba_totals,
 nba_freethrows <- summarize(nba_totals, 
                             FT = sum(FT),
                             FTA = sum(FTA))
+nba_freethrows
+
 nba_freethrows <- mutate(nba_freethrows,
                          `FT%` = FT / FTA)
 nba_freethrows
@@ -83,18 +85,24 @@ nba_totals %>%
   mutate(`FT%` = FT / FTA) %>%
   arrange(desc(`FT%`))
 
-# nba_totals <- mutate(nba_totals, `3P%` = `3P` / `3PA`)
-ggplot(data=nba_totals, 
+nba_totals <- mutate(nba_totals, `3P%` = `3P` / `3PA`)
+ggplot(nba_totals, 
        aes(x=`3PA`, 
            y=`3P%`,
-           color=Tm)) +
+           color=Pos)) +
   geom_point()
 
 nba_totals %>%
-  filter(Tm == "CHI") %>%
+  mutate(`3P%` = `3P` / `3PA`) %>%
   ggplot(aes(x=`3PA`, 
-             y=`3P%`)) +
+           y=`3P%`,
+           color=Pos)) +
+  geom_point()
+
+nba_totals %>%
+  mutate(`3P%` = `3P` / `3PA`) %>%
+  ggplot(aes(x=`3PA`, 
+             y=`3P%`,
+             color=Pos)) +
   geom_point() +
-  geom_label(aes(label=Player))
-
-
+  facet_wrap(~Pos)
