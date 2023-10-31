@@ -19,22 +19,24 @@ summary(nba_totals)
 
 View(nba_totals)
 
-head(nba_totals, 5)
+first5 <- head(nba_totals, 5)
 tail(nba_totals, 5)
 
 # Select or deselect by column
 select(nba_totals, Player)
-select(nba_totals, Player, Pos, Age)
-select(nba_totals, -GS)
+select(nba_totals, Player, `3P`, Age)
+select(nba_totals, -`3P`)
 
 # Condition rows
-filter(nba_totals, Player == "LeBron James")
+lebron <- filter(nba_totals, Player == "LeBron James")
 filter(nba_totals, `3P` >= 200)
-filter(nba_totals, `3P` >= 50, Tm == "GSW")
+warriors <- filter(nba_totals, `3P` >= 50, Tm == "GSW")
+select(warriors, Player, `3P`, `3PA`)
 
 # Sort rows
 arrange(nba_totals, `3P`)
-arrange(nba_totals, desc(`3P`))
+mostThrees <- arrange(nba_totals, desc(`3P`))
+View(arrange(nba_totals, Tm))
 arrange(nba_totals, Tm, desc(`3P`))
 
 View( arrange(nba_totals, Tm, desc(`3P`)) )
@@ -47,11 +49,12 @@ nba_totals <- mutate(nba_totals,
                                           (`3P%` >= 0.35) ~ "Above Average",
                                           TRUE ~ "Below Average"))
 select(nba_totals,
-       Player, `FG%`, PTS)
+       Player, `3P%`, PTS)
 
 # Compute summary statistics
 nba_freethrows <- summarize(nba_totals, 
-                            FT = sum(FT),
+                            FT_sum = sum(FT),
+                            FT_average = mean(FT),
                             FTA = sum(FTA))
 nba_freethrows
 
@@ -75,6 +78,45 @@ team_freethrows <- mutate(team_freethrows,
 
 team_freethrows <- arrange(team_freethrows, desc(`FT%`))
 team_freethrows
+
+# Of all points guards who played at least 65 games, who averaged the most assists?
+
+
+# point_guards <- filter(nba_totals, ((Pos == "PG") | (Pos == "PG-SG") | (Pos == "SG-PG")), G >= 65)
+point_guards <- filter(nba_totals, str_detect(Pos, "PG"), G >= 65)
+point_guards <- mutate(point_guards, APG = AST / G)
+point_guards <- arrange(point_guards, desc(APG))
+point_guards <- select(point_guards, Player, G, AST, APG)
+head(point_guards, 5)
+
+nba_totals %>%
+  filter(str_detect(Pos, "PG"), G >= 65) %>%
+  mutate(APG = AST / G) %>%
+  arrange(desc(APG)) %>%
+  select(Player, G, AST, APG) %>%
+  head(5) %>%
+  View()
+
+View(nba_totals)
+
+
+# Any player who averages 25+ more points = star
+# Which 5 teams have the most stars?
+
+nba_totals %>%
+  mutate(PTS = FT + 2*`2P` + 3*`3P`,
+         PPG = PTS / G,
+         Star = case_when((PPG >= 20) ~ TRUE,
+                          TRUE ~ FALSE)) %>%
+  select(Tm, Player, PTS, PPG, Star) %>%
+  filter(Star) %>%
+  group_by(Tm) %>%
+  summarize(Stars = sum(Star)) %>%
+  ungroup() %>%
+  arrange(desc(Stars)) %>%
+  View()
+
+
 
 
 nba_totals %>%
