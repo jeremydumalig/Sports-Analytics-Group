@@ -2,7 +2,7 @@
 
 ## 2023-24 Workshops
 **[Introduction to Tidyverse and GGPlot in R (October 30)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/2023-24%20Intro%20to%20R)** <br>
-* Meeting Notes (to be uploaded following Monday's workshop)
+* [Meeting Notes](https://docs.google.com/document/d/1B4RCYdZd_kh3eouNeRGv-4b2KYou8fJ8fAFY5FNwXrA/edit?usp=sharing)
 * GGPlot Cheat Sheet.pdf
 * Tutorial.R
 * Variables.R
