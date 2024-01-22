@@ -4,7 +4,7 @@
 
 **[Data Visualization (January 22)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/2023-24%20Data%20Visualization)** <br>
 * Meeting Notes
-* DV Workshop.Rmd
+* [DV Workshop.Rmd](https://rpubs.com/jdumalig/datavisualization)
 * [DV Workshop.ipynb](https://drive.google.com/file/d/1VUcM-G1mr4ijvn5dLhWZbm5XP0GGWcw2/view?usp=sharing)
 * mlb_batting23.csv, mlb_pitching23.csv, nba23.csv, nfl_passing23.csv, nfl_receiving23.csv, nfl_rushing23.csv, nhl23.csv
 * GGPlot Cheat Sheet.pdf
