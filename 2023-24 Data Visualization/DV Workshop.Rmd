@@ -1,0 +1,96 @@
+---
+title: "Data Visualization Workshop"
+author: "Sports Analytics Group"
+date: "2024-01-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+This workshop will preview some basic data visualization techniques in R using the `ggplot2` library and assumes some prior knowledge and experience with the `tidyverse` library. For more extensive notes on data manipulation, see [here](https://github.com/jeremydumalig/Sports-Analytics-Group).
+
+## Brief Review of Data Manipulation using `tidyverse`
+
+Load package and data (this dataset and others can be found [here](https://github.com/jeremydumalig/Sports-Analytics-Group)).
+
+```{r, message=F}
+library(tidyverse)
+```
+
+```{r}
+nba = read_csv("nba23.csv")
+
+nba %>%
+  mutate(MIN = MP / G,
+         `AST/TO` = AST / TOV) %>%
+  filter(Tm == "DEN",
+         MIN >= 10) %>%
+  arrange(desc(`AST/TO`)) %>%
+  select(Player, Pos, AST, TOV, `AST/TO`) %>%
+  head(5)
+
+nba %>%
+  group_by(Tm) %>%
+  summarize(`3PM` = sum(`3P`),
+            `3PA` = sum(`3PA`)) %>%
+  ungroup() %>%
+  mutate(`3P%` = 100 * `3PM` / `3PA`) %>%
+  arrange(`3P%`) %>%
+  head(5)
+```
+
+## Data Visualization using `ggplot2`
+
+Documentation for plotting in `ggplot2` found [here](https://rstudio.github.io/cheatsheets/html/data-visualization.html).
+
+```{r, message=F}
+library(ggplot2)
+```
+
+```{r, warning=F, fig.width=10}
+df = 
+  nba %>%
+  mutate(`FG%` = 100 * FG / FGA)
+
+ggplot(df) +
+  geom_point(aes(x=PTS, 
+                 y=`FG%`,
+                 color=Pos),
+             size=3,
+             alpha=0.75) +
+  theme_bw()
+
+nba %>%
+  ggplot() +
+  geom_histogram(aes(x=`3P`),
+                 color='darkblue',
+                 bins=30) +
+  labs(x="3-Point Makes (3PM)",
+       y="Count",
+       title="Distribution of Player 3PM in the 2022-23 NBA Season") +
+  theme_bw()
+
+nba %>%
+  filter(Tm %in% c("GSW", "LAL", "LAC", "SAC", "PHO")) %>%
+  group_by(Tm) %>%
+  summarize(`3PM` = sum(`3P`),
+            `3PA` = sum(`3PA`)) %>%
+  ungroup() %>%
+  mutate(`3P%` = 100 * `3PM` / `3PA`) %>%
+  ggplot() +
+  geom_bar(aes(x=Tm, 
+               y=`3P%`,
+               fill=Tm),
+           stat='identity') +
+  lims(y = c(0, 50)) +
+  theme_bw()
+```
+
+
+
+
+
