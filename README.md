@@ -2,8 +2,6 @@
 
 ## 2023-24 Workshops
 
-https://drive.google.com/file/d/1VUcM-G1mr4ijvn5dLhWZbm5XP0GGWcw2/view?usp=sharing
-
 **[Data Visualization (January 22)](https://github.com/jeremydumalig/Sports-Analytics-Group/tree/main/2023-24%20Data%20Visualization)** <br>
 * Meeting Notes
 * DV Workshop.Rmd
